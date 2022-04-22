@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+    
+}
+
+body {
+    background: linear-gradient(90deg, rgb(250, 243, 178), rgb(241, 240, 137));
+}
+
+h1 {
+    color: red;
+    text-align: center;
+    font-size: 70px;
+    padding: 10px;
+    border: 2px red solid;
+    margin: 20px;
+    background: rgb(233, 169, 233, 0.2);
+    border-radius: 10px;
+    width: 80%;
+    margin-left: 120px;
+}
+h2 {
+    padding: 10px;
+    text-align: center;
+}
+
+div {
+    width: 95%;
+    height: auto;
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+p {
+    padding: 10px;
+    align-self: center;
+    width: 900px;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+
+.peli1 {
+    background: linear-gradient(to top right, yellow, orange, purple);
+}
+
+.peli2 {
+    background: linear-gradient(to bottom left, yellow, orange, purple);
+}
+
+.peli3 {
+    background: linear-gradient(to top right, yellow, orange, purple);
+}
+
+button {
+    justify-self: left;
+    margin: 10px;
+    height: 20%;
+    width: 20%;
+    border-radius: 5px;
+    border: #ccc;
+    padding: 5px;
+    background: linear-gradient(to left, rgb(247, 214, 220), rgb(240, 181, 225));
+    align-self: bottom;
+    box-shadow: 2px 2px 5px #ccc;
+    text-align: center
+}
+
+button a {
+    text-decoration: none;
+    color: rgb(97, 10, 82);
+    font-weight: bolder;
+    padding: 10px;
+    font-size: small;
+    text-align: center;
+
+}

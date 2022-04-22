@@ -1,0 +1,127 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    font-family: Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: brown;
+    font-weight: 1000;
+}
+
+audio {
+    padding: 5px;
+}
+
+h2 {
+    color: rgb(150, 24, 155);
+    padding: 10px;
+    text-align: center;
+}
+
+p {
+    padding: 30px;
+    font-style: oblique;
+    text-align: justify;
+}
+
+img {
+    width: 70%;
+    height: auto;
+    padding: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(150, 24, 155);
+}
+
+#consultas {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+form {
+    
+    width: 80%;
+    height: auto;
+    background-color: rgb(231, 187, 187);
+    border: 10px solid rgb(160, 119, 161);
+    padding: 30px;
+    text-align: center;
+
+}
+
+label {
+    color: rgb(150, 24, 155);
+    line-height: 30px;
+    margin-bottom: 7px;    
+}
+
+input[type='number']{
+    width: 344px;
+} 
+
+input[type='submit']{
+    background-color: rgb(150, 24, 155);
+    color: white;
+    box-shadow: 2px 2px 6px rgb(175, 12, 153);
+    align-self: left;
+}
+
+::placeholder {
+    opacity: 50%;
+}
+
+input,
+textarea {
+    background-color: rgb(253, 234, 244);
+    padding: 5px;
+    border-radius: 5px;
+    border-color: rgb(138, 64, 138);
+    outline: none;
+}
+
+textarea {
+    resize: none;
+    overflow: auto;
+}
+
+video {
+    border-radius: 1%;
+}
+
+
+
+video,
+img,
+iframe {
+    box-shadow: 3px 3px 10px rgb(138, 64, 138);
+    margin-left: 310px;
+}
+
+img{
+    padding: 0;
+    width: 50%;
+    height: auto;
+}
+
+.mapa{
+    margin-left: 195px;
+}
+
+table{
+    color: brown;
+}
+
